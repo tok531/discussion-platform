@@ -17,6 +17,7 @@ const PostDiv = (currentPost)=>{
  
     return(
       <div className="memberPost">
+        {console.log(currentPost.post.username.split(" ")[1][0])}
         <span className="userName">{currentPost.post.username.split(" ")[0][0]+currentPost.post.username.split(" ")[1][0]}</span>
         <div class="memberdata ">
           <b>{currentPost.post.username}</b>
