@@ -14,7 +14,7 @@ const WriteThoughts = ()=>{
 
 
    const writePost = (type)=>{
-    if(messageParagraph.current.className!==""){
+    if(yourpost.current.value!==""){
         if(type==="ask"){
             setmessage("Your question is being prepared")
          }
