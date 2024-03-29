@@ -1,0 +1,59 @@
+.individualPost {
+    width: 70%;
+    min-height: 600px;
+    margin:50px auto;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+
+
+}
+.comment{
+    background-color: white;
+    padding:0px 30px ;
+    overflow-y: auto;
+    max-height: 500px;
+    
+}
+.commentContent {
+   
+    margin:0px 0px 20px 3px ;
+    background-color: #e1d4f66f;
+    border-radius: 20px;
+    padding:3px 10px;
+}
+
+.yourcomment {
+    padding:0px 10px ;
+
+}
+.yourcommentcontent {
+    width: 90%;
+    background-color: #e1d4f66f;
+    padding: 10px 10px;
+    border-radius: 20px;
+
+
+}
+textarea {
+    border: 0px;
+    outline: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0);
+}
+.yourcommentcontent button {
+    margin-left: auto;
+    margin-top: 10px;
+    border: 0px;
+    padding: 0 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0,0);
+    color: gray;
+
+}
+.yourcommentcontent button:hover {
+    color: black;
+
+}
+.closeicon{
+    transform: translate(200px,-220px);
+}

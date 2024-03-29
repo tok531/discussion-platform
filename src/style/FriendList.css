@@ -1,0 +1,14 @@
+.friends {
+    background-color: white;
+    text-align: center;
+    height: 80px;
+    font-size: 23px;
+    line-height:80px;
+    width: 100%;
+    border-radius: 20px;
+    color: rgb(49, 49, 158);
+
+
+}
+.friends i {
+}

@@ -1,0 +1,67 @@
+.loginDiv {
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 20px;
+    /* border: 1px solid rgb(190, 189, 189); */
+    box-shadow: 10px 15px 30px 2px #d7c4f4 ;
+}
+.loginDiv:hover {
+    box-shadow: 1px 1px 25px 2px #d7c4f4 ;
+
+}
+h2{
+    color: #744db2;
+    text-align: center;
+
+}
+.loginDiv form{
+    width: 80%;
+    margin:50px auto 0;
+}
+
+input {
+    /* margin: 10px 10px; */
+    border-radius: 25px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 0.5px solid rgb(160, 159, 159);
+}
+.email, .password, .date{
+    width: 100%;
+}
+input.username{
+    width: 50%;
+}
+input[type="radio"]{
+    width: 17px;
+    
+    /* margin:0 20px; */
+}
+.loginDiv span {
+    display: inline-block;
+    line-height: 30px;
+    padding-top: 0px;
+    transform: translateY(-45%);
+    margin-left: 5PX;
+}
+
+button[type="submit"]{
+    display: block;
+    margin:50px auto 0;
+    width: 50%;
+    height: 60px;
+}
+button a {
+    font-size: 20px;
+
+}
+a{
+    margin:10px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}

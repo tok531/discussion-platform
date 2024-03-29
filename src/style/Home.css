@@ -1,0 +1,152 @@
+.posts{
+    margin-top: 90px;
+    margin-left: 20%;
+    width: 50%;
+    height: 300px;
+    
+}
+ .yourThoughts, .memberPost {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid rgb(224, 220, 220);
+
+
+}
+ .userName {
+    display: inline-block;
+    background-color: #b0bcef85;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: #744db2;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.yourThoughts input {
+    width: 90%;
+}
+.thoughtsOption {
+    padding-top:10px ;
+}
+.thoughtsOption b {
+    width: 100px;
+}
+.thoughtsOption button {
+    border: 0;
+    background-color: white;
+    text-align: center;
+    border-left:1px solid rgb(165, 163, 163);
+    padding: 0 3px;
+
+}
+button.askOption {
+    border-left: 0px;
+}
+
+
+.thoughtsOption button .optionIcons, .postContent div button span i {
+    color: rgb(124, 124, 224);
+}
+
+.thoughtsOption button b {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(136, 133, 133);
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.thoughtsOption button b:hover  {
+    background-color: #e1d4f66a ;
+    border-radius: 25px;
+}
+.thoughtsOption button b:hover .optionIcons, .postContent div button span:hover i{
+    color: rgb(22, 22, 167);
+
+}
+/*when write yourthoughts ////////////////////////// */
+.message{
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(131, 131, 234);
+    color: white;
+    text-align: center;
+    margin: auto;
+    transform: translateY(-12px);
+    line-height: 50px;
+
+}
+/* /////////////////////////////// */
+.memberPost span.userName {
+    margin-top: 0;
+}
+.memberdata{
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 5px;
+    transform: translateY(20%);
+}
+.memberdata b {
+    font-weight: 500;
+
+}
+.memberdata p {
+    color: rgb(160, 158, 158);
+    font-size: 15px;
+}
+.postContent {
+    padding: 10px;
+}
+.postContent .numberComments{
+    width: 15%;
+    margin-left: auto;
+    text-align: center;
+    color: rgb(168, 165, 165);
+    cursor: pointer;
+}
+.postContent .numberComments:hover {
+    text-decoration: underline;
+}
+.postContent div{
+    border-bottom:1px solid rgb(224, 220, 220) ;
+    border-top:1px solid rgb(224, 220, 220) ;
+    height: 40px;
+    padding: 3px 0px;
+
+}
+.postContent div button{
+    border: 0;
+    background-color: white;
+    height: 100%;
+
+    
+}
+.postContent div button span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+ 
+.postContent div button span:hover {
+    
+    background-color: #e1d4f66a ;
+    border-radius: 15px;
+
+}
+.closeicon {
+    margin-left: 800px;
+    color: rgb(170, 167, 167);
+}
+.closeicon:hover {
+    color: rgb(12, 11, 11);
+}
