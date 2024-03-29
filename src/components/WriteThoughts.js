@@ -24,7 +24,7 @@ const WriteThoughts = ()=>{
          messageParagraph.current.className = "message"
          posts.unshift({
              id: `${posts.length+1}`,
-             username:   `${localStorage.getItem("first name").charAt(0).toLocaleUpperCase()+localStorage.getItem("first name").slice(1)} ${localStorage.getItem("last name").charAt(0).toLocaleUpperCase()+localStorage.getItem("last name").slice(1)}`,
+             username:   `${localStorage.getItem("first name").charAt(0).toLocaleUpperCase()+localStorage.getItem("first name").slice(1)}${localStorage.getItem("last name").charAt(0).toLocaleUpperCase()+localStorage.getItem("last name").slice(1)}`,
              content:`${yourpost.current.value}`,
              numcomments:0,
              area:"cairo",

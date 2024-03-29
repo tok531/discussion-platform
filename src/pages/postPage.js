@@ -24,7 +24,7 @@ const ShowPost = ()=>{
         const allComments = JSON.parse(localStorage.getItem("comments"))
         allComments.push({
             postId: `${post.id}`,
-            username:localStorage.getItem("first name").charAt(0).toLocaleUpperCase()+localStorage.getItem("first name").slice(1)+" "+localStorage.getItem("last name").charAt(0).toLocaleUpperCase()+localStorage.getItem("last name").slice(1),
+            username:localStorage.getItem("first name").charAt(0).toLocaleUpperCase()+localStorage.getItem("first name").slice(1)+localStorage.getItem("last name").charAt(0).toLocaleUpperCase()+localStorage.getItem("last name").slice(1),
             content:`${yourcomment.current.value }`
         })
         localStorage.setItem("comments", JSON.stringify(allComments))
